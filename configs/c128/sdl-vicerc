@@ -1,0 +1,10 @@
+[C128]
+Mouse=1
+VICIIDoubleSize=0
+VICIIDoubleScan=0
+VICIIFilter=0
+VICIIVideoCache=0
+SDLWindowWidth=1070
+SDLWindowHeight=918
+SidEngine=0
+VICIIFullscreen=1

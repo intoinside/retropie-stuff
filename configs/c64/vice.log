@@ -1,0 +1,85 @@
+ 
+*** VICE Version 3.4, rev 39063 ***
+ 
+Welcome to xvic, the free portable VIC20 Emulator.
+ 
+Current VICE team members:
+Martin Pottendorfer, Marco van den Heuvel, Fabrizio Gennari, Groepaz, 
+Errol Smith, Ingo Korb, Olaf Seibert, Marcus Sutton, Kajtar Zsolt, AreaScout, 
+Bas Wassink, Michael C. Martin, Christopher Phillips, David Hogan.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Loading system file `/opt/retropie/emulators/vice/share/vice/VIC20/kernal'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/VIC20/basic'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/VIC20/chargen'.
+VIC20 kernal patched to 901486-07.
+Loading system file `/opt/retropie/emulators/vice/share/vice/PRINTER/mps803'.
+Palette: Loading palette `/opt/retropie/emulators/vice/share/vice/PRINTER/mps803.vpl'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/PRINTER/nl10-cbm'.
+Palette: Loading palette `/opt/retropie/emulators/vice/share/vice/PRINTER/nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `/opt/retropie/emulators/vice/share/vice/PRINTER/1520.vpl'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos1540'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos1541'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/d1541II'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos1570'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos1571'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos1581'.
+DriveROM: Error - 2000 ROM image not found. Hardware-level 2000 emulation is not available.
+DriveROM: Error - 4000 ROM image not found. Hardware-level 4000 emulation is not available.
+DriveROM: Error - CMDHD ROM image not found. Hardware-level CMDHD emulation is not available.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos2031'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos2040'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos3040'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos4040'.
+Loading system file `/opt/retropie/emulators/vice/share/vice/DRIVES/dos1001'.
+Drive: Finished loading ROM images.
+Sound: Available sound devices: alsa sdl dummy fs dump wav voc iff aiff soundmovie
+SDLJoystick: No joysticks found
+SDLKeyboard: Loading hotkey map `/opt/retropie/emulators/vice/share/vice/VIC20/sdl_hotkeys.vkm'.
+SDLKeyboard: Warning - Failed to open `/home/pi/.config/vice/sdl-hotkey-VIC20.vkm'.
+Keyboard: Loading keymap `/opt/retropie/emulators/vice/share/vice/VIC20/sdl_pos.vkm'.
+Keyboard: Warning - sdl_pos.vkm: !LCBM !VCBM !LCTRL !VCTRL not defined.
+SDLVideo: Available Renderers: opengl opengles2 opengles software 
+SDLVideo: SDL2 renderer driver selected: opengl
+SDLVideo: VIC (active) 896x568 32bpp  (fullscreen)
+AUTOSTART: Autodetecting image type of `/home/pi/RetroPie/roms/vic20/VIC 1907 Jupiter Lander (Super Lander).prg'.
+Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 195.
+Filesystem Image: Unknown disk image `/home/pi/RetroPie/roms/vic20/VIC 1907 Jupiter Lander (Super Lander).prg'.
+Tape: Error - Cannot open file `/home/pi/RetroPie/roms/vic20/VIC 1907 Jupiter Lander (Super Lander).prg'
+AUTOSTART: Loading PRG file `/home/pi/RetroPie/roms/vic20/VIC 1907 Jupiter Lander (Super Lander).prg' with autostart disk image.
+AUTOSTART: Resetting the machine to autostart '*'
+AUTOSTART: Turning Warp mode on
+AUTOSTART: `/home/pi/RetroPie/roms/vic20/VIC 1907 Jupiter Lander (Super Lander).prg' recognized as program/p00 file.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Unit 8: RESET.
+Unit 8: RESET.
+Sound: Opened device `alsa', speed 44100Hz, fragment size 11,6ms, buffer size 104ms
+reSID: MOS6581, filter on, sampling rate 44100Hz - fast
+AUTOSTART: Loading program '*'
+AUTOSTART: Entered ROM at $e5e8
+AUTOSTART: Searching for ...
+AUTOSTART: Loading
+AUTOSTART: Entered ROM at $ef60
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off
+AUTOSTART: Starting program.
+AUTOSTART: Restoring FileSystemDevice8 to 1.
+AUTOSTART: Restoring FSDevice8ConvertP00 to 1.
+AUTOSTART: Done.
+reSID: MOS6581, filter on, sampling rate 44100Hz - resampling, pass to 19845Hz
+Sound: Warning - Buffer drained
+Attached cartridge type 1, file=`/home/pi/RetroPie/roms/vic20/VIC 1907 Jupiter Lander (Super Lander).prg'.
+Main CPU: RESET.
+Unit 8: Skipping cycles.
+AUTOSTART: Turned off.
+Unit 8: RESET.
+Sound: Warning - Buffer drained
+Sound: Warning - Buffer full during suspend
+
+Exiting...
+Writing configuration file `/home/pi/.config/vice/sdl-vicerc'.
+Sound: Closing device `alsa'
